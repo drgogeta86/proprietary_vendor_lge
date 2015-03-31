@@ -173,16 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/v4xx-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/lge/v4xx-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/v4xx-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libbmc050.so:system/vendor/lib/libbmc050.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/lge/v4xx-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/v4xx-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/lge/v4xx-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/v4xx-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
@@ -223,4 +213,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/lge/v4xx-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/v4xx-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libbmc050.so:system/vendor/lib/libbmc050.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/lge/v4xx-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b07:system/vendor/firmware/wcnss.b07 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
